@@ -1,14 +1,87 @@
 body{
-    background-color: rgba(0, 0, 0, 0.898);
+    background-color:rgb(218, 216, 216)
 }
-#Parrafo {
+
+table{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse; /* elimina los espacios en blanco*/
+}
+
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: aqua;
+    color: rebeccapurple;
+    text-align: left;/*alinea las tabla a la izquierda*/
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 14px;
+    border: 1px solid black;
+}
+
+
+
+/*
+ul{
+    list-style-type: none;
+    background-color: #fff;
+    border: solid 2px rgb(218, 216, 240);
+    border-radius: 4px;
+    padding-left: 0px;
+    
+}
+li{
+    background-color: aquamarine;
+    padding: 15px;
+    border-bottom: solid 1px rgb(218, 216, 240);
+}
+
+*/
+/*#Parrafo {
     color: rgb(54, 172, 172);
 }
+ul li {
+    list-style-type: none;
+}
+
 
 .etiqueta{
     color: blueviolet;
 }
 
-span{
-    color: red;
+a{
+    color: blue;
+    background-color: #adf8e6;
+    border-color: #aff8e6;
+    border: solid 1px #aff8e6;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
 }
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: blue(54, 172, 172);
+}
+
+a:active{
+    color:blue;
+}
+
+a:hover{
+    color:gray;
+    background-color: #add8e6;
+
+}*/
