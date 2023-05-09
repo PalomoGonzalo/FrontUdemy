@@ -1,11 +1,11 @@
 body{
     background-color:rgb(218, 216, 216)
 }
-
+/*
 table{
     width: 100%;
     background-color: white;
-    border-collapse: collapse; /* elimina los espacios en blanco*/
+    border-collapse: collapse; /* elimina los espacios en blanco
 }
 
 tr:nth-child(even){
@@ -20,13 +20,13 @@ td{
 table th {
     background-color: aqua;
     color: rebeccapurple;
-    text-align: left;/*alinea las tabla a la izquierda*/
+    text-align: left;/*alinea los texto a la izquierda
     padding-top: 17px;
     padding-bottom: 17px;
     padding-left: 14px;
     border: 1px solid black;
 }
-
+*/
 
 
 /*
